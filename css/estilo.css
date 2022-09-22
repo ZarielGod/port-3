@@ -1,0 +1,97 @@
+* {
+		margin:0px; /*zera todos as margens externas dos elementos */
+		padding:0px;/*zera todas as margebs  internas dos elementos*/
+}
+
+body{
+	background-color:black; 
+	
+}
+	
+
+section#container{
+		width : 1000px; /*largura dacaixa*/
+		height : 1000px; /*largura da caisa*/
+		Background-color:rgb(21, 255, 0); /*cor da caixa*/
+		border:1px solid rgb(255, 0, 0); /* espessura da borda, tipo de borda e cor da borda*/
+		margin:auto;/*centralia a conteiner de acorco com a largura do dispositivo*/
+	}
+section#container h1{
+		font-family: 'Roboto'; /*tipo de fonte*/
+		font-size: 50px; /* tamanho de fonte*/;
+		font-weight: 400; /*força do negrito*/
+		text-align: right;
+		/*margin:0px; /*zera todos as margens externas dos elementos */
+		padding:100px 100px;
+		background-image: url(images/image4.jpg);
+	}
+.caixa{
+	
+		width : 1000px; /*largura dacaixa*/
+		height : 300px; /*largura da caisa*/
+		background-color: rgb(43, 255, 0);
+		
+	
+}
+
+div#formacao {
+		background-repeat: no-repeat;
+		background-size: 100%;
+}
+
+.texto{
+	font-family: 'Roboto';
+	font-size: 20px; /* tamanho de fonte*/;
+	font-weight: 400; /*força do negrito*/
+	color:white;
+	margin: 15px 0 0 0;
+		
+}
+
+.h2{
+	font-family: 'Roboto';
+	font-size: 30px; /* tamanho de fonte*/;
+	font-weight: bold; /*força do negrito*/
+	color:white;
+	margin:0px; 
+	padding:18px 0 0 15px;
+
+}
+
+div#quemsoueu{
+
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	margin: auto;
+}
+
+.lista{
+	list-style:none;
+	text-align: left;
+	margin: 30px 0 0 0;
+}
+
+.h3{
+	font-family: 'Arial';
+	font-size: 22px; /* tamanho de fonte*/;
+	font-weight: 400; /*força do negrito*/
+	color:white;
+}	
+
+div#hobbieseinteresses{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.texto2{
+	font-family: 'Roboto';
+	font-size: 15px; /* tamanho de fonte*/;
+	font-weight: 400; /*força do negrito*/
+	color:white;
+}
+
+/*div#hobbieseinteresses{
+	display:flex
+} */
